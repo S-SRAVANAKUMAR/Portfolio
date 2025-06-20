@@ -1,0 +1,524 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!-- ✅ Home Section -->
+<section id="home" class="hero-banner">
+  <div class="hero-decor"></div>
+  <div class="hero-content">
+    <h1>Hello, I'm <span>Sravanakumar Sathish</span></h1>
+<p class="hero-tagline">
+  From research to deployment,<br />
+  <span class="highlight">I build generative AI systems</span> that transform ideas into intelligent solutions.
+</p>
+<p class="hero-subtext">
+  <span>🎓 MS in Data Science – Arizona State University</span> |
+  <span>💼 Ex-Technology Consultant at PwC</span>
+</p>
+
+  </div>
+</section>
+
+<!-- Section Divider -->
+<div class="section-divider">
+  <svg viewBox="0 0 1440 150" preserveAspectRatio="none">
+    <path d="M0,0 C720,150 720,0 1440,150 L1440,0 L0,0 Z" class="divider-path"/>
+  </svg>
+</div>
+
+<!-- ✅ About Section -->
+<section id="about" class="section">
+    <div class="section-title-wrapper">
+<h2 class="section-title">About Me</h2>
+    </div>
+  <div class="about-container">
+    <img src="{{ url_for('static', filename='assets/images/Sravanakumar Sathish.jpg') }}" alt="Sravanakumar Sathish" class="profile-pic">
+    <div class="about-text">
+      <p>
+        I'm a Data Science Master’s student at Arizona State University with a passion for building intelligent, human-centric systems. My journey spans developing machine learning pipelines, crafting LLM-powered tools, and exploring the frontiers of generative AI and causal inference.
+      <p>
+        With experience in both industry and research, I thrive at the intersection of innovation and impact—where ideas become prototypes and prototypes scale into real-world solutions. Whether it’s collaborating cross-functionally, diving deep into model architectures, or writing about the evolving AI landscape, I bring curiosity, clarity, and creativity to every challenge.      </p>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Section Divider -->
+<div class="section-divider"><svg viewBox="0 0 1440 150" preserveAspectRatio="none"><path d="M0,0 C720,150 720,0 1440,150 L1440,0 L0,0 Z" fill="#f9f9f9"/></svg></div>
+
+<!-- ✅ Skills Section -->
+<section id="skills" class="section"><div class="section-title-wrapper"><h2 class="section-title">Skills and Technologies</h2></div><div class="skills-tech-grid">
+   <!-- 1. Data Science & Modeling -->
+<div class="skill-block"><div class="icon"><i class="fas fa-brain"></i></div><h3>Data Science & Modeling</h3>
+  <p>Probability & Statistics | Machine Learning | Causal Inference | Generative AI | Advanced Excel | SQL | Python | R</p>
+</div>
+<!-- 2. Data Visualization -->
+<div class="skill-block"><div class="icon"><i class="fas fa-chart-pie"></i></div><h3>Data Visualization</h3>
+  <p>Tableau | Power BI | Python Libraries (Matplotlib, Seaborn) | Netlify</p>
+</div>
+<!-- 3. MLOps & Deployment -->
+<div class="skill-block"><div class="icon"><i class="fas fa-tools"></i></div><h3>MLOps & Deployment</h3>
+  <p>Streamlit | Gradio | Android Integration | REST APIs | Real-time Inference | Version Control (Git)</p>
+</div>
+<!-- 4. Cloud & Database Platforms -->
+<div class="skill-block"><div class="icon"><i class="fas fa-cloud"></i></div><h3>Cloud & Database Platforms</h3>
+  <p>Azure | Google Cloud Platform | MySQL | Azure DevOps</p>
+</div>
+<!-- 5. Industry Experience -->
+<div class="skill-block"><div class="icon"><i class="fas fa-briefcase"></i></div><h3>Research & Industry Experience</h3>
+  <p>Technology Consulting | Product Development | Virtual Assistants | AI/ML Applications | Causal Graph Learning | Edge AI (GROQ)</p>
+</div>
+<!-- 6. Collaboration & Leadership -->
+<div class="skill-block"><div class="icon"><i class="fas fa-users-cog"></i></div><h3>Collaboration & Leadership</h3>
+  <p>Stakeholder Communication | Team Mentorship | Research Collaboration | Client Presentations | Peer Grading | Cross-functional Teams</p>
+</div>
+
+</section>
+
+<!-- Section Divider -->
+<div class="section-divider"><svg viewBox="0 0 1440 150" preserveAspectRatio="none"><path d="M0,0 C720,150 720,0 1440,150 L1440,0 L0,0 Z" fill="#f9f9f9"/></svg></div>
+
+<!-- ✅ Experience Section -->
+<section id="experience" class="section">
+  <div class="section-title-wrapper">
+    <h2 class="section-title">Experience</h2>
+  </div>
+  <div class="timeline-wrapper-alt">
+
+    <div class="timeline-block-alt left">
+      <div class="timeline-content-alt">
+        <div class="timeline-date-alt">Jan 2025 – Present</div>
+        <h3>Graduate Service Assistant (Grader)</h3>
+        <h4>Arizona State University</h4>
+        <p>Assisting in evaluation and support for <strong>Data Mining</strong> coursework.</p>
+      </div>
+    </div>
+
+    <div class="timeline-block-alt right">
+      <div class="timeline-content-alt">
+        <div class="timeline-date-alt">Dec 2024 – Present</div>
+        <h3>Graduate Research Aide</h3>
+        <h4>Arizona State University</h4>
+        <p>Working on <strong>Causal Graph Learning and Inferencing</strong>, Causal Discovery in Large Language Models and <strong>Knowledge Representation.</strong></p>
+      </div>
+    </div>
+
+    <div class="timeline-block-alt left">
+      <div class="timeline-content-alt">
+        <div class="timeline-date-alt">Jan 2023 – Jun 2024</div>
+        <h3>Associate Technology Consultant</h3>
+        <h4>PwC, Bangalore</h4>
+        <ul class="timeline-list">
+          <li>Developed a Virtual Assistant for an e-commerce company using <strong>generative AI</strong> to enhance customer interaction.</li>
+          <li>Replaced large language models with efficient <strong>Small language models</strong>, improving accuracy and performance.</li>
+          <li>Presented GROQ research findings and earned recognition from senior leadership.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-block-alt right">
+      <div class="timeline-content-alt">
+        <div class="timeline-date-alt">Sep 2021 – Oct 2021</div>
+        <h3>Data Science Intern</h3>
+        <h4>Atsuya Technologies</h4>
+        <ul class="timeline-list">
+          <li>Designed a <strong>Open CV, Machine Learning-powered mobile app</strong> for a public sector client.</li>
+          <li>Used Android Studio to integrate and deploy ML models into a mobile solution.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Section Divider -->
+<div class="section-divider"><svg viewBox="0 0 1440 150" preserveAspectRatio="none"><path d="M0,0 C720,150 720,0 1440,150 L1440,0 L0,0 Z" fill="#f9f9f9"/></svg></div>
+
+<!-- ✅ Education Section -->
+<section id="education" class="section">
+      <div class="section-title-wrapper">
+  <h2 class="section-title">Education</h2>
+      </div>
+  <div class="education-grid">
+    <!-- Education Cards -->
+    <div class="edu-card" style="background: #fff7f1;"><img src="{{ url_for('static', filename='assets/logos/ASU-Logo.jpg') }}" class="edu-logo" alt="ASU Logo" /><h3>🎓 Arizona State University, Tempe 🇺🇸</h3><p><strong>Course:</strong> <em>Master of Science, Data Science, Analytics and Engineering</em></p><p><strong>Year:</strong> 2024–26</p><p><strong>Highlighted Coursework:</strong> <em>Data Mining, Machine Learning, NLP, Machine Vision & Patter Recognition, Advanced DBMS</em></p><p><strong>CGPA:</strong> 3.7 / 4</p></div>
+    <div class="edu-card" style="background: #f0faff;"><img src="{{ url_for('static', filename='assets/logos/vit.png') }}" class="edu-logo" alt="VIT Logo" /><h3>🎓 Vellore Institute of Technology, Chennai 🇮🇳</h3><p><strong>Course:</strong> <em>B.Tech, Electronic and Computer Engineering</em></p><p><strong>Year:</strong> 2019–23</p><p><strong>Highlighted Coursework:</strong> <em>AI & Machine Learning, IoT, Network Security, Data Structures and Algorithms, Computer Vision</em></p><p><strong>CGPA:</strong> 7.8 / 10</p></div>
+  </div>
+</section>
+
+<!-- Section Divider -->
+<div class="section-divider"><svg viewBox="0 0 1440 150" preserveAspectRatio="none"><path d="M0,0 C720,150 720,0 1440,150 L1440,0 L0,0 Z" fill="#f9f9f9"/></svg></div>
+
+<!-- ✅ Projects Section -->
+<section id="projects" class="section">
+  <div class="section-title-wrapper">
+    <h2 class="section-title">Projects</h2>
+  </div>
+  <div class="carousel-wrapper">
+    <button class="carousel-btn left" onclick="scrollCarousel('left')">&#10094;</button>
+    <div class="projects-carousel" id="projectsCarousel">
+      
+      <!-- Existing Cards -->
+       <div class="project-card">
+        <img src="static\assets\images\aznn.png" alt="AZNN" />
+        <h3>INAI.AI</h3>
+        <p>INAI.AI is an intelligent, real-time multi-agent platform designed to enhance collaboration, productivity, and emotional well-being in team environments. Addressing the limitations of conventional tools, it introduces an adaptive layer that monitors conversations, task assignments, and behavioral cues to optimize team dynamics. The system uses <strong> Three agents: Synthesizer, Equalizer, and Uplifter </strong>to automate project updates, flag workload imbalances, and provide support during periods of stress or burnout. INAI.AI demonstrated strong results, including live summarization of team progress, fair workload redistribution, and proactive wellness checks, all seamlessly integrated via APIs and Azure OpenAI. It transforms teamwork into a dynamic, AI-guided experience that promotes clarity, fairness, and mental resilience.</p>
+        <p><strong>Tools:</strong> Python, Azure OpenAI, REST APIs, Discord API, Multi-Agent Architecture, Communication Analytics</p>
+        <a href="https://github.com/Sh0702/AZNN" target="_blank" class="read-more">Project Github →</a>
+      </div>
+
+      <div class="project-card">
+        <img src="static\assets\images\freshstart.png" alt="Fresh Start" />
+        <h3>Fresh Start</h3>
+        <p>Fresh Start is an award-winning web application built to ensure surplus food is redirected to those who need it most—rather than ending up in landfills. Developed during and crowned winner of StratX DevHacks 2025, the platform enables restaurants to securely register and upload food donations while allowing individuals to discover nearby food camps and free meal drives in real time. Featuring verified onboarding, live availability updates, and geolocation-based search, Fresh Start delivers a seamless and scalable solution for food redistribution. It transforms compassion into code—reducing waste, promoting sustainability, and supporting community well-being through technology.</p>
+        <p><strong>Tools:</strong> Python, ReactJS, Flask, SQL Server, REST APIs, Google MAps APIs</p>
+        <!-- <a href="https://github.com/Sh0702/AZNN" target="_blank" class="read-more">Project Github →</a> -->
+      </div>
+
+      <div class="project-card">
+        <img src="static\assets\images\groq.png" alt="groq" />
+        <h3>LPU GROQ Accelerator</h3>
+        <p>Designed and deployed a high-performance inference pipeline using GROQ's LPU (Language Processing Unit) to accelerate large language models (LLMs) by 10× for edge environments. This system drastically reduced latency and power consumption, making advanced NLP applications feasible on low-resource hardware. Ideal for real-time AI tasks in embedded systems, robotics, and smart devices.</p>
+        <p><strong>Tools:</strong> Python, GROQ, OpenAI</p>
+      </div>
+      
+      <div class="project-card">
+        <img src="static\assets\images\gcp.png" alt="gcp" />
+        <h3>GCP + OpenAI Automation</h3>
+        <p>Developed an intelligent automation framework that connects Google services like Gmail, YouTube, and Calendar with OpenAI APIs. Enabled natural language prompts to drive automated workflows, such as drafting emails, scheduling events, and summarizing video content. Seamlessly integrates cloud functions and language models for efficient digital task management.</p>
+        <p><strong>Tools:</strong> GCP, OpenAI, Python</p>
+      </div>
+
+      <div class="project-card">
+        <img src="static\assets\images\nst.png" alt="neural-style-transfer" />
+        <h3>Neural Style Transfer</h3>
+        <p>Developed an model to perform a style transfer between two High-Quality images using GAN architecture. Neural Style Transfer is the art of creating style to any content. Content is the layout or the sketch and Style being the painting or the colors. It is an application of Image transformation using Deep Learning.</p>  
+        <p><strong>Tools:</strong> Python, PyTorch, OpenCV, CNN, DeepLearning</p>
+        <a href="https://github.com/S-SRAVANAKUMAR/Neural-Style-Transfer" target="_blank" class="read-more">Project Github →</a>
+      </div>
+
+      <div class="project-card">
+        <img src="static\assets\images\emotion.png" alt="Emotion-Aware AI Framework" />
+        <h3>Emotion-Aware AI for Mood Detection & Music Recommendation</h3>
+        <p>
+        Developed a new system is introduced that recommends music based on a person’s emotions, detected through their voice and facial expressions. It uses a single CNN model to recognize emotions in real-time. Voice emotion is detected using speech recognition, and facial emotion is analyzed with OpenCV. Based on the identified emotion, the system uses the OpenAI API to suggest songs that match the user’s mood. This creates a personalized, AI-powered music experience by combining emotional analysis with smart recommendations.</p>
+        <p><strong>Tools:</strong> OpenCV, SpeechRecognition, CNN, OpenAI API, Deep Learning</p>
+        <a href="https://zenodo.org/records/15690080" target="_blank" class="read-more">Read the Published Paper →</a>
+      </div>
+
+      <div class="project-card">
+        <img src="static\assets\images\stock.png" alt="stock-prediction" />
+        <h3>Stock Prediction IoT</h3>
+        <p>We have leveraged the power of IoT and Machine Learning successfully to build a project in the Finance Industry. As per the features and scope of this project, the users must be able to get the updates and financial advice related to the stocks/shares of their preferred company by continuously monitoring activities and changes that might directly or indirectly effect their investments.</p>        <p><strong>Tools:</strong> Python, Streamlit, IoT</p>
+        <a href="https://github.com/S-SRAVANAKUMAR/Portable-Device-for-Predictive-Stock-Analysis" target="_blank" class="read-more">Project Github →</a>
+      </div>
+
+      <div class="project-card">
+        <img src="static\assets\images\air-canvas.png" alt="air-canvas" />
+        <h3>Air Canvas</h3>
+        <p>AI Virtual painter with hand gester project is a AI based project in which you can detect hand and fingers and with the help of your index fingure you can draw on the screen and with the idex fingure and middle fingure you can select the different colors and the eraser to erase the drawing. this project is writen in python language with the help of Open Cv.</p> <p><strong>Tools:</strong> Python, Machine Learning, Open CV</p>
+        <a href="https://github.com/S-SRAVANAKUMAR/Air-Canvas" target="_blank" class="read-more">Project Github →</a>
+      </div>
+
+    </div>
+    <button class="carousel-btn right" onclick="scrollCarousel('right')">&#10095;</button>
+  </div>
+</section>
+
+
+<!-- Section Divider -->
+<div class="section-divider"><svg viewBox="0 0 1440 150" preserveAspectRatio="none"><path d="M0,0 C720,150 720,0 1440,150 L1440,0 L0,0 Z" fill="#f9f9f9"/></svg></div>
+
+<!-- Certifications Section -->
+<section id="certifications" class="section">
+      <div class="section-title-wrapper">
+  <h2 class="section-title">Certifications</h2>
+      </div>
+  <div class="certifications-grid">
+
+    <div class="cert-card">
+  <div class="cert-logo-container">
+    <img src="{{ url_for('static', filename='assets/logos/microsoft.png') }}" alt="Microsoft" class="cert-logo">
+  </div>
+  <h3>Microsoft Certified: Azure AI Engineer Associate [AI-102]</h3>
+  <p>Microsoft</p>
+  <a href="https://learn.microsoft.com/en-gb/users/sravanakumarsathishin-8734/credentials/5b05667037ae08e?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank" class="cert-btn">
+    View credential
+  </a>
+</div>
+<div class="cert-card">
+  <div class="cert-logo-container">
+    <img src="{{ url_for('static', filename='assets/logos/google_cloud.png') }}" alt="Google Cloud" class="cert-logo">
+  </div>
+  <h3>Introduction to Generative AI </h3>
+  <p>Google Cloud</p>
+  <a href="https://coursera.org/share/9d1679df57fdcf74555f695573b21ccf" target="_blank" class="cert-btn">
+    View credential
+  </a>
+</div>
+
+<div class="cert-card">
+  <div class="cert-logo-container">
+    <img src="{{ url_for('static', filename='assets/logos/deeplearning.png') }}" alt="DeepLearning.AI" class="cert-logo">
+  </div>
+  <h3>Neural Networks and Deep Learning</h3>
+  <p>Deeplearning.AI</p>
+  <a href="https://coursera.org/share/0e89bc3efeac3d55592f75e144dbeddf" target="_blank" class="cert-btn">
+    View credential
+  </a>
+</div>
+
+<div class="cert-card">
+  <div class="cert-logo-container">
+    <img src="{{ url_for('static', filename='assets/logos/vit.png') }}" alt="VIT Chennai" class="cert-logo">
+  </div>
+  <h3>Artificial Intelligence</h3>
+  <p>VIT Chennai</p>
+  <a href="https://drive.google.com/file/d/1Kp-4H_eOC86LbjOSf24wz4QByqBBD7k0/view?usp=sharing" target="_blank" class="cert-btn">
+    View credential
+  </a>
+</div>
+
+<div class="cert-card">
+  <div class="cert-logo-container">
+    <img src="{{ url_for('static', filename='assets/logos/deeplearning.png') }}" alt="DeepLearning.AI" class="cert-logo">
+  </div>
+  <h3>Natural Language Processing with Classification and Vector Spaces</h3>
+  <p>Deeplearning.AI</p>
+  <a href="https://drive.google.com/file/d/1rqVy7xwe6kcn7Sdf-cYK9uD1DjlrLBI_/view?usp=sharing" target="_blank" class="cert-btn">
+    View credential
+  </a>
+</div>
+
+<div class="cert-card">
+  <div class="cert-logo-container">
+    <img src="{{ url_for('static', filename='assets/logos/aws.png') }}" alt="Google Cloud" class="cert-logo">
+  </div>
+  <h3>AWS Cloud Technical Essentials</h3>
+  <p>Amazon Web Services (AWS)</p>
+  <a href="https://www.coursera.org/account/accomplishments/verify/PF4Q5KD6SVPE?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" target="_blank" class="cert-btn">
+    View credential
+  </a>
+</div>
+
+<div class="cert-card">
+  <div class="cert-logo-container">
+    <img src="{{ url_for('static', filename='assets/logos/ibm.png') }}" alt="IBM" class="cert-logo">
+  </div>
+  <h3>Introduction to Data Analytics Professional Certificate</h3>
+  <p>IBM</p>
+  <a href="https://drive.google.com/file/d/1FSMfeYv03fIO6ImdNnoRiH8E26MpK870/view?usp=sharing" target="_blank" class="cert-btn">
+    View credential
+  </a>
+</div>
+
+<div class="cert-card">
+  <div class="cert-logo-container">
+    <img src="{{ url_for('static', filename='assets/logos/coursera.png') }}" alt="Coursera" class="cert-logo">
+  </div>
+  <h3>Google Data Analytics with R programming Professional Certificate</h3>
+  <p>Coursera</p>
+  <a href="https://drive.google.com/file/d/11DLEspRsegvsJI31efy-ZIGRTEu_SXzF/view?usp=sharing" target="_blank" class="cert-btn">
+    View credential
+  </a>
+</div>
+
+<div class="cert-card">
+  <div class="cert-logo-container">
+    <img src="{{ url_for('static', filename='assets/logos/flipkart_grid.png') }}" alt="Flipkart" class="cert-logo">
+  </div>
+  <h3>Participation certificate - Flipkart Grid 4.0</h3>
+  <p>Flipkart</p>
+  <a href="https://drive.google.com/file/d/1OU1QuY1MK1P02CcHRKasc-z310J9ef57/view?usp=sharing" target="_blank" class="cert-btn">
+    View credential
+  </a>
+</div>
+
+</div>
+</section>
+
+<!-- Section Divider -->
+<div class="section-divider"><svg viewBox="0 0 1440 150" preserveAspectRatio="none"><path d="M0,0 C720,150 720,0 1440,150 L1440,0 L0,0 Z" fill="#f9f9f9"/></svg></div>
+
+<!-- ✅ Blogs Section with Images -->
+<section id="blog" class="section">    
+  <div class="section-title-wrapper">
+    <h2 class="section-title">Latest Blog Posts</h2>
+  </div>
+  <div class="carousel-wrapper">
+    <button class="carousel-btn left" onclick="scrollCarousel('blogCarousel', 'left')">&#10094;</button>
+    <div class="projects-carousel" id="blogCarousel">
+
+      <!-- Blog Cards -->
+      <div class="project-card blog-card">
+        <img src="static\assets\images\nerf.png" alt="NeRF" class="blog-thumbnail">
+        <div class="blog-content">
+          <h3>From Footage to Fields: Intro to NeRF</h3>
+          <p class="blog-desc">Learn the basics of Neural Radiance Fields</p>
+          <a href="https://medium.com/@sathishsravanakumar/️-from-footage-to-fields-one-video-which-brought-me-into-neural-radiance-fields-nerf-a764b0639901" target="_blank" class="read-more">Read on Medium <span>›</span></a>
+        </div>
+      </div>
+
+      <div class="project-card blog-card">
+        <img src="static\assets\images\multimodel.png" alt="Multimodal AI" class="blog-thumbnail">
+        <div class="blog-content">
+          <h3>The Rise of Multimodal AI</h3>
+          <p class="blog-desc">How AI models combine text, image, and more</p>
+          <a href="https://medium.com/@sathishsravanakumar/the-rise-of-multimodal-ai-how-machines-are-learning-beyond-text-e2a0865f2d79" target="_blank" class="read-more">Read on Medium <span>›</span></a>
+        </div>
+      </div>
+
+      <div class="project-card blog-card">
+        <img src="static\assets\images\cybersecurity.png" alt="Cybersecurity AI" class="blog-thumbnail">
+        <div class="blog-content">
+          <h3>AI in Cybersecurity</h3>
+          <p class="blog-desc">AI’s growing role in digital defense systems</p>
+          <a href="https://medium.com/@sathishsravanakumar/from-reactive-to-proactive-ais-impact-on-cybersecurity-defense-a233219d66c0" target="_blank" class="read-more">Read on Medium <span>›</span></a>
+        </div>
+      </div>
+
+      <div class="project-card blog-card">
+        <img src="static\assets\images\agenticai.jpg" alt="Agentic AI" class="blog-thumbnail">
+        <div class="blog-content">
+          <h3>AI Agents vs Agentic AI</h3>
+          <p class="blog-desc">Key differences between Agentic AI and Agents</p>
+          <a href="https://www.linkedin.com/posts/sravanakumar-sathish_ai-agents-vs-agentic-ai-activity-7331178808089161728-69H1" target="_blank" class="read-more">Read on LinkedIn <span>›</span></a>
+        </div>
+      </div>
+
+      <div class="project-card blog-card">
+        <img src="static\assets\images\visionllm.png" alt="Vision LLMs" class="blog-thumbnail">
+        <div class="blog-content">
+          <h3>From Pixels to Words - Vision LLMs</h3>
+          <p class="blog-desc">How vision-language models are shaping AI</p>
+          <a href="https://medium.com/@sathishsravanakumar/from-pixels-to-words-the-future-of-ai-with-vision-llms-09b466a6e8a9" target="_blank" class="read-more">Read on Medium <span>›</span></a>
+        </div>
+      </div>
+
+    </div>
+    <button class="carousel-btn right" onclick="scrollCarousel('blogCarousel', 'right')">&#10095;</button>
+  </div>
+</section>
+
+<!-- Section Divider -->
+<div class="section-divider"><svg viewBox="0 0 1440 150" preserveAspectRatio="none"><path d="M0,0 C720,150 720,0 1440,150 L1440,0 L0,0 Z" fill="#f9f9f9"/></svg></div>
+
+<!-- ✅ Recommendations Section -->
+<section id="recommendations" class="section recommendations-section">
+  <h2 class="section-title">Recommendations</h2>
+
+  <div class="recommendation-wrapper">
+    <!-- Left Arrow -->
+    <button class="rec-arrow left" onclick="changeRec(-1)">&#10094;</button>
+
+    <!-- Carousel -->
+    <div class="recommendation-carousel" id="recommendationCarousel">
+      <!-- Recommendation 1 -->
+      <div class="recommendation-card active">
+        <div class="quote-icon-box">“</div>
+        <p class="recommendation-text">
+          I had the distinct pleasure of working closely with Sravan for the past 1.5 years at PwC India. We collaborated on developing several Proof of Concepts using Machine Learning and Generative AI, and I was fortunate to have him as a colleague. Sravan consistently gave his all to the team, excelling in both pitching innovative ideas and approaching solutions with fresh perspectives. He played a pivotal role in ensuring timely task completion.
+          <br><br>
+          His exceptional technical skills, coupled with a natural ability to translate business ideas into AI/ML solutions, were truly impressive. A skilled orator, Sravan generously shared his knowledge with everyone. His open-mindedness fostered a collaborative environment, as he genuinely valued and incorporated others' suggestions and ideas. He maintained a high standard of quality, always striving for the best possible output before project completion.
+          <br><br>
+          We miss his positive presence and genuine smile in the office! Any team would be incredibly fortunate to have Sravan, and I wholeheartedly recommend him to any organization seeking top-tier talent.
+        </p>
+        <div class="recommender-profile">
+          <img src="static/assets/images/surya.jpeg" alt="Surya">
+          <p class="recommender-name">JayaSai Surya</p>
+          <p class="recommender-title">Associate, PwC</p>
+          <p class="recommender-relationship"><em>Worked along with Sravanakumar in the same team</em></p>
+        </div>
+      </div>
+
+      <!-- Recommendation 2 -->
+      <div class="recommendation-card">
+        <div class="quote-icon-box">“</div>
+        <p class="recommendation-text">
+          I had the opportunity to work with Sravan on a project where I focused on research and documentation, and he handled the machine learning engineering. My closest buddy was really impressed by his deep understanding of ML and how he could simplify complex problems into clear solutions. His technical skills are top-notch, and he always delivered high-quality work.
+          <br><br>
+          What I appreciated most was his collaborative spirit. Sravan is a great communicator and made sure the whole team stayed aligned, which really helped move things forward smoothly. I learned a lot from him and would definitely recommend him to anyone looking for a skilled and reliable ML engineer!
+        </p>
+        <div class="recommender-profile">
+          <img src="static/assets/images/manin.jpeg" alt="Manin Thomas">
+          <p class="recommender-name">Manin Thomas</p>
+          <p class="recommender-title">Associate, PwC</p>
+          <p class="recommender-relationship"><em>Worked along with Sravanakumar in the same team</em></p>
+        </div>
+      </div>
+
+      <!-- Recommendation 3 -->
+      <div class="recommendation-card">
+        <div class="quote-icon-box">“</div>
+        <p class="recommendation-text">
+          I have had the pleasure of working closely with Sravan over the past year and can confidently say that they are a true expert in the field of AI/ML, Generative AI. Sravan possesses a rare combination of technical prowess, creative thinking, and a deep understanding of machine learning algorithms.
+          <br><br>
+          Sravan played a pivotal role in the team where his contributions were nothing short of exceptional. His ability to conceptualize and implement cutting-edge generative AI models not only met but exceeded our project goals. He demonstrated a keen understanding of the nuances of machine learning, and their innovative solutions significantly enhanced the overall performance of our systems.
+          <br><br>
+          What sets Sravan apart is not only their technical skills but also their collaborative and communicative approach. He has a remarkable ability to explain complex concepts in a clear and accessible manner, making him an invaluable team member. His passion for the field is evident in his continuous pursuit of knowledge and staying abreast of the latest developments in AI and ML.
+          <br><br>
+          In addition to his technical acumen, Sravan is a pleasure to work with. His positive attitude, willingness to take on challenges, and ability to work seamlessly with cross-functional teams make him an asset to any organization.
+        </p>
+        <div class="recommender-profile">
+          <img src="static/assets/images/kokila.jpeg" alt="Kokila">
+          <p class="recommender-name">Kokila Natchiyappan</p>
+          <p class="recommender-title">Manager</p>
+          <p class="recommender-relationship"><em>Directly managed Sravanakumar</em></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Arrow -->
+    <button class="rec-arrow right" onclick="changeRec(1)">&#10095;</button>
+
+    <!-- Dots -->
+    <div class="rec-dots" id="recDots"></div>
+  </div>
+</section>
+
+<!-- Section Divider -->
+<div class="section-divider"><svg viewBox="0 0 1440 150" preserveAspectRatio="none"><path d="M0,0 C720,150 720,0 1440,150 L1440,0 L0,0 Z" fill="#f9f9f9"/></svg></div>
+
+<!-- Contact-->
+<section id="contact">
+  <div class="contact-wrapper">
+    <h2>Contact Me</h2>
+    <div class="contact-underline"></div>
+
+    <div class="contact-grid">
+      <!-- Gmail -->
+      <a href="mailto:sathishsravanakumar@gmail.com" class="contact-card">
+        <img src="static\assets\svg\gmail.jpg" alt="Gmail">
+        <p>Gmail</p>
+      </a>
+
+      <!-- Resume -->
+      <a href="https://drive.google.com/file/d/1puZEFPKr9hzwyFW6qHD1-uL2EIDMI42m/view?usp=sharing" class="contact-card" target="_blank">
+        <img src="static\assets\svg\resume.png" alt="Resume">
+        <p>Resume</p>
+      </a>
+
+      <!-- LinkedIn -->
+      <a href="https://linkedin.com/in/sravanakumar-sathish" class="contact-card" target="_blank">
+        <img src="static\assets\svg\linkedin.png" alt="LinkedIn">
+        <p>LinkedIn</p>
+      </a>
+
+      <!-- Medium -->
+      <a href="https://medium.com/@sathishsravanakumar" class="contact-card" target="_blank">
+        <img src="static\assets\svg\medium.png" alt="Medium">
+        <p>Medium</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ✅ Footer -->
+<footer>
+  <p>&copy; 2025 Sravanakumar Sathish</p>
+</footer>
+
+
+
+{% endblock %}
