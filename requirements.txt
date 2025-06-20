@@ -38,7 +38,7 @@ setuptools==80.7.1
 sympy==1.14.0
 threadpoolctl==3.6.0
 tokenizers==0.21.1
-torch==2.7.0+cu118
+torch==2.2.2
 torchaudio==2.7.0+cu118
 torchvision==0.22.0+cu118
 tqdm==4.67.1
