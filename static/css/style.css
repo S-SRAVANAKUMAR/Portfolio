@@ -394,30 +394,60 @@ nav ul li a:hover::after {
     flex: 0 0 85%;
   }
 }
+/* ===== Honors & Awards Section ===== */
+#awards {
+  padding: 60px 20px;
+  background: #f4f9fd; /* same as education */
+}
+
+.awards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.award-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 16px; /* same roundness as education */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* ✅ soft shadow */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  text-align: center;
+}
+
+.award-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* ✅ stronger on hover */
+}
+
+
+.award-card h3 {
+  font-size: 1.3rem;
+  color: #102a43; /* same as Education title text */
+  margin-bottom: 10px;
+}
+
+.award-card p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #444;
+}
+
+/* Matching Education section colors */
+.award-left {
+  background: #fff4ec; 
+}
+
+.award-right {
+  background: #eaf3fc; 
+}
 /* === Education Section === */
 
 .education-section {
   padding: 4rem 2rem;
 }
 
-/* .section-title {
-  font-size: 2.4rem;
-  text-align: center;
-  color: #002c4b;
-  font-weight: 700;
-  position: relative;
-  margin-bottom: 2rem;
-} */
-
-/* .section-title::after {
-  content: '';
-  width: 60px;
-  height: 4px;
-  background: #00bfff;
-  display: block;
-  margin: 0.5rem auto 0;
-  border-radius: 2px;
-} */
 
 .education-grid {
   display: grid;
